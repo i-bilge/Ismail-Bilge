@@ -11604,6 +11604,7 @@ body {
 
 .projects-section {
   padding: 10rem 0;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.7) 25%, rgba(0, 0, 0, 0.8) 100%), url("./images/pexels-mohi-syed-137219.jpg");
 }
 .projects-section .featured-text {
   padding: 2rem;
