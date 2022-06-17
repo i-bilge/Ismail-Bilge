@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>My Portal</title>
+  </head>
+  <body>
+    <!-- navigator line -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Ismail Bilge´s Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-right">
+            <a class="nav-link disabled">Visit Card</a>
+            <a class="nav-link disabled">About Me</a>
+            <a class="nav-link disabled">Skills</a>
+            <a class="nav-link disabled">Projects</a>
+            <a class="nav-link disabled">Language</a>
+            <a class="nav-link disabled">Profiles</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <!--Profile Card 5--><!-- visit Card -->
+    		<div class="col-md-4 mt-4 h-50">
+          <div class="card profile-card-5">
+            <div class="card-img-block" style="text-align: center;">
+              <img
+                class="card-img-top"
+                src="./images/portfolioPhoto.jpg"
+                alt="Card image cap"
+                style="width: 30vh; height:auto;"
+              />
+            </div>
+            <div class="card-body pt-0" style="text-align: center;">
+              <h5 class="card-title">Ismail Bilge</h5>
+              <p class="card-text">Full-Stack Developer / Weimar, Germany</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 mt-4 border border-4 h-50">
+          <!-- About Me -->
+          <h2 id="aboutMeHeader">About Me</h2>
+          <p class="aboutParagraphs">
+              I am a 27 years old young person. I speak Turkish (my mother language), English and German. I can describe myself as a hard-working, orginized, solution-oriented and willing to learn teammate. I am personally interested in the IT field. I have a bachelor's degree in Business Administration. And I'm trying to develop myself in the field of IT, in the field of program development. Although this is only theoretical training, I would like to state that I have had Java programming classes during my bachelor's degree. 
+          </p>
+          <p class="aboutParagraphs">
+               After that I worked in Istanbul, in a textile company as an assistant manager. My tasks there were analyzing and organizing. And MS Office programs, Minitab and Excel Macro were the systems I used.
+          </p>
+          <p class="aboutParagraphs">
+              I have been living in Germany since October 2020 and have a residence and work permit here. I quickly completed my integration course. After that I improved my German skills. Ultimately, I have a C1 German certificate. I am currently attending a computer science course. At the same time, I'm trying to improve myself in the field of IT (especially Python, HTML/CSS/JS, GitHub) with online courses.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 mt-4 border border-2">
+          <!-- Skills -->
+          <div id="skills">
+            <h2>Skills</h2>
+            <img class="skillsImg" src="./images/icons8-html-64.png" alt="html"/><br>
+            <img class="skillsImg" src="./images/icons8-css-64.png" alt="css"/><br>
+            <img class="skillsImg" src="./images/icons8-javascript-48.png" alt="js"/><br>
+            <img class="skillsImg" src="./images/icons8-python-48.png" alt="py"/><br>
+            <img class="skillsImg" src="./images/icons8-git-48.png" alt="git"/><br>
+            <img class="skillsImg" src="./images/icons8-java-48.png" alt="java"/><br>
+            <img class="skillsImg" src="./images/icons8-sigma-48.png" alt="6sigma"/><br>
+            <img class="skillsImg" src="./images/icons8-spss-50.png" alt="spss"/>
+        </div>
+        </div>
+        <div class="col-md-9 mt-4 border border-2">
+          <!-- Projects -->
+          <div id="projectList">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="https://github.com/i-bilge/Clarusway_IT_School-Projects/tree/main/001-survey-form">Netflix Survey Form</a></li>
+                <li><a href="https://github.com/i-bilge/Clarusway_IT_School-Projects/tree/main/002-google-landing-page">Google Landing Page</a></li>
+                <li><a href="https://github.com/i-bilge/Clarusway_IT_School-Projects/tree/main/003-parallax-website">Parallax Web Page</a></li>
+            </ul>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 border border-2">
+          <!-- Languages -->
+          <div id="languagesContainer">
+            <h2>Languages</h2>
+            <div id="languages">    
+              <img class="languagesImg" src="./images/icons8-great-britain-48.png" alt="english">
+              <img class="languagesImg" src="./images/icons8-germany-48.png" alt="german">
+              <img class="languagesImg" src="./images/icons8-turkey-48.png" alt="turkish">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9 border border-2">
+          <!-- Profiles -->
+
+          <h2>Credentials and Portfolio</h2>
+          <div id="portfolio">
+            <div id="resume" style="float: left;">
+                <a  id="resumeEng" href="./Dokuments/Resume English (neu).pdf">
+                    <img class="resumeImg" src="./images/285666_pdf_file_icon.png" alt="in english" style="width: 4vh; height:auto">
+                </a>
+                <a href="resume.html">My Resume</a>
+                <a  id="resumeDe" href="./Dokuments/Resume Deutsch (neu).pdf">
+                    <img class="resumeImg" src="./images/285666_pdf_file_icon.png" alt="in german" style="width: 4vh; height:auto">
+                </a>
+            </div>
+
+            <div id="links" style="float: right;">
+                <a href="https://github.com/i-bilge">
+                    <img class="linksImg" src="./images/icons8-github-30.png" alt="github">
+                </a>
+                <a href="https://www.hackerrank.com/iismailbilge">
+                    <img class="linksImg" src="./images/icons8-hackerrank-32.png" alt="github">
+                </a>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark" style="text-align: center;">
+      <p>Email: <a href="mailto:ismail.bilge.de@gmail.com">ismail.bilge.de@gmail.com</a></p>
+      <code>Copyrght (c) 2022 Ismail Bilge</code>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
+</html>
