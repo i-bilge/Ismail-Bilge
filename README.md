@@ -26,8 +26,7 @@ This project is created to explain myself as a developer better and publish my w
 * There are also links of GitHub, HackerRank and Xing accounts
 
 ## How to use
-# Click on this link:
-![Ismail Bilge](https://i-bilge.github.io/Ismail-Bilge/)
+Click on this [link](https://i-bilge.github.io/Ismail-Bilge/)
 
 
 ## Screenshots
